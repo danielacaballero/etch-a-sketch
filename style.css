@@ -1,0 +1,86 @@
+#mainheader{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background-color: rgb(241, 143, 143);
+    padding: 12px;
+    font-size: large;
+
+}
+
+
+#inner{
+    display: flex;
+    justify-content: center;
+    /*gap: 4px;*/
+}
+
+
+#outer{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 20px;
+    /*the container must have a fixed w and h*/
+    width: 600px;
+    height: 600px;
+}
+
+#main-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sidebar-container{
+
+    width: 200px;
+    height: 600px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+#eraser, #rainbow-pen, #reset{
+    color: white;
+    width: 64px;
+    height: 24px;
+    border-radius: 25px;
+    background-color: pink;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+
+
+.rangeslider{
+    margin-top: 10px;
+    width: 50%;
+}
+  
+.myslider {
+    -webkit-appearance: none;
+    background: #b6b6b6  ;
+    width: 50%;
+    height: 20px;
+    opacity: 2;
+   }
+  
+  
+.myslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #000000  ;
+    width: 10%;
+    height: 20px;
+}
+  
+  
+.myslider:hover {
+    opacity: 1;
+}
